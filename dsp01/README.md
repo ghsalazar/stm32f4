@@ -1,4 +1,4 @@
-#dsp01: A blinky program in assembler for the STM32F446re#
+# dsp01: A blinky program in assembler for the STM32F446re #
 
 This program was developed in the Embitz IDE.
 
