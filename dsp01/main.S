@@ -83,7 +83,7 @@ _start:
 
 loop:
 /*
-    State evolution
+    State update
 */
     cbnz    r0, wait           @ if (!r0) goto wait
     ldr     r1, [r4, GPIO_ODR]
