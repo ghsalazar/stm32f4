@@ -1,5 +1,5 @@
 /** @file   main.S
-    @author Gastón SALAZAR  <gaston_salazar@yahoo.com>
+    @author GastÃ³n SALAZAR  <gaston_salazar@yahoo.com>
 
     @brief  A blink program for the STM32F446re. It implements a state machine.
             It requires a basic link script. The interrupts vectors must be
