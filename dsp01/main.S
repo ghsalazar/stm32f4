@@ -42,9 +42,8 @@
     .equ    RESET_PUPDR5,   (3 << 10)
 
 /**
-    @fn     main
-    @brief  As we are using the c-compiler infrastructure,
-            so a main function is required.
+    @fn     _start
+    @brief  After the reset the fuction _start is the entry point.
 */
     .text
     .global _start
