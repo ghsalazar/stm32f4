@@ -1,3 +1,5 @@
+/* Based on http://denyadzi.github.io/blog/2014/12/25/assembly-hello-world-code-for-stm32f4discovery/ */
+
 MEMORY
 {
     FLASH (rx): ORIGIN = 0x8000000,     LENGTH = 1024K
