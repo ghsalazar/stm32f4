@@ -1,0 +1,79 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00030000         !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj\debug\main.o
+START GROUP
+LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/thumb\libgcc.a
+LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/thumb\libg.a
+LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/thumb\libc.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/thumb\libgcc.a
+LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/thumb\libc.a
+LOAD c:/program files (x86)/embitz/1.11/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/thumb\libnosys.a
+END GROUP
+                0x20020000                _estack = 0x20020000
+
+.int_vector_table
+                0x08000000        0x8
+ *(.int_vector_table)
+ .int_vector_table
+                0x08000000        0x8 obj\debug\main.o
+
+.text           0x08000008       0x4c
+ *(.text)
+ .text          0x08000008       0x4c obj\debug\main.o
+                0x08000008                _start
+OUTPUT(bin\Debug\dsp01.elf elf32-littlearm)
+
+.data           0x08000054        0x0
+ .data          0x08000054        0x0 obj\debug\main.o
+
+.igot.plt       0x08000054        0x0
+ .igot.plt      0x08000054        0x0 obj\debug\main.o
+
+.glue_7         0x08000054        0x0
+ .glue_7        0x08000054        0x0 linker stubs
+
+.glue_7t        0x08000054        0x0
+ .glue_7t       0x08000054        0x0 linker stubs
+
+.vfp11_veneer   0x08000054        0x0
+ .vfp11_veneer  0x08000054        0x0 linker stubs
+
+.v4_bx          0x08000054        0x0
+ .v4_bx         0x08000054        0x0 linker stubs
+
+.iplt           0x08000054        0x0
+ .iplt          0x08000054        0x0 obj\debug\main.o
+
+.rel.dyn        0x08000054        0x0
+ .rel.iplt      0x08000054        0x0 obj\debug\main.o
+
+.bss            0x08000054        0x0
+ .bss           0x08000054        0x0 obj\debug\main.o
+
+.ARM.attributes
+                0x00000000       0x21
+ .ARM.attributes
+                0x00000000       0x21 obj\debug\main.o
+
+.debug_line     0x00000000       0x54
+ .debug_line    0x00000000       0x54 obj\debug\main.o
+
+.debug_info     0x00000000       0x52
+ .debug_info    0x00000000       0x52 obj\debug\main.o
+
+.debug_abbrev   0x00000000       0x14
+ .debug_abbrev  0x00000000       0x14 obj\debug\main.o
+
+.debug_aranges  0x00000000       0x20
+ .debug_aranges
+                0x00000000       0x20 obj\debug\main.o
