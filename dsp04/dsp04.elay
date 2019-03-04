@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_layout_file>
+	<ActiveTarget name="dsp04" />
+	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="774" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="mbed-dev\hal\mbed_ticker_api.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1582" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="mbed-dev\targets\TARGET_STM\gpio_object.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1196" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="mbed-dev\targets\TARGET_STM\PeripheralPins.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="456" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="mbed-dev\targets\TARGET_STM\PinNamesTypes.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="951" topLine="125" />
+		</Cursor>
+	</File>
+	<File name="mbed-dev\targets\TARGET_STM\PortNames.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1019" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="mbed-dev\targets\TARGET_STM\TARGET_STM32F4\pin_device.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="898" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="mbed-dev\targets\TARGET_STM\TARGET_STM32F4\TARGET_STM32F446xE\device\TOOLCHAIN_GCC_ARM\STM32F446XE.ld" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="143" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="mbed-dev\targets\TARGET_STM\TARGET_STM32F4\TARGET_STM32F446xE\TARGET_NUCLEO_F446RE\PinNames.h" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3241" topLine="181" />
+		</Cursor>
+	</File>
+</EmBitz_layout_file>
