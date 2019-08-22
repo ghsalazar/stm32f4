@@ -84,7 +84,7 @@ loop:
 /*
     State update
 */
-    cbnz    r0, wait           @ if (!r0) goto wait
+    cbnz    r0, wait           @ if (r0!=0) goto wait
     ldr     r1, [r4, GPIO_ODR]
     eor     r1, r1, LED        @ r1 = r1 ^ LED
     str     r1, [r4, GPIO_ODR]
