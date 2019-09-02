@@ -1,5 +1,6 @@
 /** @file   main.c
-    @author Gast�n SALAZAR <gaston_salazar@yahoo.com>
+    @author Gastón SALAZAR <gaston_salazar@yahoo.com>
+    @author Abraham RODRÍGUEZ GALEOTTE
 
 # Interface #
 
@@ -61,7 +62,7 @@ const unsigned short int segmentos[] = {CERO, UNO, DOS, TRES, CUATRO, CINCO,
 
 void setup()
 {
-    // Configuraci�n de m�quina
+    // Configuración de máquina
 
     RCC->AHB1ENR |= RCC_AHB1ENR_GPIOBEN;
     RCC->AHB1ENR |= RCC_AHB1ENR_GPIOCEN;
@@ -77,7 +78,7 @@ void setup()
     GPIOC->MODER &= ~GPIO_MODER_MODER13;
     GPIOC->PUPDR &= ~GPIO_PUPDR_PUPDR13;
 
-    // Inicializaci�n de variables
+    // Inicialización de variables
 
     DISPLAY = CERO;
 }
