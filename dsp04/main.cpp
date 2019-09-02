@@ -1,5 +1,6 @@
-/** @file   main.c
-    @author Gastón SALAZAR <gaston_salazar@yahoo.com>
+/** @file   main.cpp
+    @author Gastón SALAZAR SILVA <gaston_salazar@yahoo.com>
+    @author Abraham RODRÍGUEZ GALEOTTE
     @brief  Display a (hexadecimal-) number sequence on a display
 
 # Interface #
