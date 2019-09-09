@@ -1,6 +1,7 @@
 /** 
     @file   main.cpp
-    @author Gastón SALAZAR  <gaston_salazar@yahoo.com>
+    @author Gastón Hugo SALAZAR SILVA  <gaston_salazar@yahoo.com>
+    @author Abraham Rodríguez Galeotte
 */
 
 #include "mbed.h"
